@@ -1,0 +1,108 @@
+body{  
+    font-family: Arial, Helvetica, sans-serif;  
+    background: linear-gradient(#4292f4, #052f63);  
+    font-size: 15px;  
+    line-height: 1.5;  
+    padding: 0;  
+    margin: 0;  
+   } 
+
+   * {  
+    box-sizing: border-box;  
+   }
+
+   .container{  
+    width:520px;  
+    height: auto;  
+    margin: 100px auto;  
+    background-color: #eee;  
+    border-radius: 0px 0px 30px 30px;  
+   }
+
+   .base{  
+    width: 100%;  
+    margin: 0;  
+    overflow: hidden;  
+    display: block;  
+    float: none;  
+   } 
+
+   .block{  
+    width: 135px;  
+    padding: 5px 20px;  
+    margin-left: 20px;  
+    display: inline-block;  
+   } 
+
+   .base h4{  
+    font-size: 26px;  
+    text-align: center;  
+    font-weight: normal;  
+    margin-top: 0px;  
+    box-shadow: 0px 2px #bababa;  
+    font-size: 34px;  
+    color: navy;  
+   }  
+
+   .title{  
+    font-size: 20px;  
+    text-align: center;   
+    line-height: 0.5;  
+    letter-spacing: 0.5px; 
+    color: #1073d0;  
+   }  
+
+   input[type=text] {  
+    width: 140px;  
+    min-height: 50px;  
+    border: 2px solid #1073d0;  
+    padding: 12px;   
+    border-radius: 16px;  
+    color: #1073d0;  
+    font-size: 17px;  
+   }
+
+   input[type=text]:focus{  
+    background-color: #ffffff;  
+    border: 2px solid orange;  
+    outline: none;  
+   } 
+
+   input[type=button]{  
+    width: 150px;  
+    margin-left: 35%;  
+    margin-top: 40px;  
+    border: none;  
+    border-radius: 10px;  
+    background-color: #0761b6;  
+    color: #ffffff;  
+    padding: 14px 16px;  
+    font-size: 16px;  
+    cursor: pointer;
+   } 
+
+   input[type=button]:hover{  
+    background-color: #003669;  
+   } 
+
+   #age{    
+    margin: 10px;  
+    margin-top: 35px;  
+    padding: 10px;  
+    padding-bottom: 20px;    
+    font-family: verdana;  
+    font-size: 23px;   
+    word-spacing: 2px;  
+    color: navy;  
+   }  
+
+   h5{
+       text-align: center;
+       color: white;
+       font-size: 17px;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   i{
+       vertical-align: middle;
+   }
